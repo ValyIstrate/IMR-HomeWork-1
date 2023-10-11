@@ -16,7 +16,7 @@ public class Fight : MonoBehaviour
     {
         if (_mAnimator != null)
         {
-            if (Vector3.Distance(transform.position, otherCactus.position) <= 0.25f)
+            if (Vector3.Distance(transform.position, otherCactus.position) <= 0.4f)
             {
                 _mAnimator.SetBool("isAttacking", true);
             }
